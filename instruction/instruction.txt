@@ -1,1 +1,3 @@
 Instruction for building kernel module in buildroot
+
+Add in buildroot/package/Config.in source "package/rtl8723ds/Config.in"
