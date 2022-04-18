@@ -1003,11 +1003,13 @@ EXTRA_CFLAGS += -DCONFIG_PLATFORM_ARM_SUNxI
 ifeq ($(CONFIG_SDIO_HCI), y)
 # default setting for A10-EVB mmc0
 #EXTRA_CFLAGS += -DCONFIG_WITS_EVB_V13
-_PLATFORM_FILES += platform/platform_ARM_SUNxI_sdio.o
+_PLATFORM_FILES += platform/platform_RISCV_D1_sdio.o
 endif
 ARCH:=riscv
-CROSS_COMPILE:= /home/debian/embedded/linux/buildroot/output/host/bin/riscv64-linux-
-KSRC:= /home/debian/embedded/linux/buildroot/output/build/linux-custom/
+#CROSS_COMPILE:= /home/debian/embedded/linux/buildroot/output/host/bin/riscv64-linux-
+#KSRC:= /home/debian/embedded/linux/buildroot/output/build/linux-custom/
+CROSS_COMPILE := $(R_CROSS_COMPILE)
+KSRC := $(KERNEL_BUILD_PATH)
 endif
 
 #########################################################################
