@@ -4,7 +4,7 @@ config BR2_PACKAGE_RTL8723DS
   help
     Wireless driver rtl8723ds.
 
-    https://www.github.com/Ivansquark/rtl8723ds_riscv
+    https://github.com/Ivansquark/rtl8723ds_riscv
 
 comment "rtl8723ds needs a Linux kernel to be built"
   depends on !BR2_LINUX_KERNEL:w

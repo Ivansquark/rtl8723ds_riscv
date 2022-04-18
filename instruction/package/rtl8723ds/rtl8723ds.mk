@@ -4,7 +4,7 @@
 #
 ################################################################################
 
-RTL8723DS_SITE = "https://www.github.com/Ivansquark/rtl8732ds_riscv"
+RTL8723DS_SITE = "https://github.com/Ivansquark/rtl8732ds_riscv"
 RTL8723DS_LICENSE = GPL-2.0
 
 RTL8723DS_MODULE_MAKE_OPTS = \
