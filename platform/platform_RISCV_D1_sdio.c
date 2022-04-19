@@ -37,6 +37,8 @@ extern int mmc_pm_gpio_ctrl(char *name, int level);
  *	rtl8189es_vcc_en  = port:PH12<1><default><default><0>
  */
 
+MODULE_INFO(intree, "Y");
+
 int rtl8189es_sdio_powerup(void)
 {
 	mmc_pm_gpio_ctrl("rtl8189es_vdd_en", 1);
