@@ -19,6 +19,7 @@
  ******************************************************************************/
 #include <drv_types.h>
 
+MODULE_INFO(intree, "Y");
 #ifdef CONFIG_MMC_SUNXI_POWER_CONTROL
 #ifdef CONFIG_WITS_EVB_V13
 	#define SDIOID	0
@@ -37,7 +38,6 @@ extern int mmc_pm_gpio_ctrl(char *name, int level);
  *	rtl8189es_vcc_en  = port:PH12<1><default><default><0>
  */
 
-MODULE_INFO(intree, "Y");
 
 int rtl8189es_sdio_powerup(void)
 {
