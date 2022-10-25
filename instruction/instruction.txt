@@ -1,3 +1,13 @@
 Instruction for building kernel module in buildroot
 
 Add in buildroot/package/Config.in source "package/rtl8723ds/Config.in"
+
+In kernel (buildroot/make linux-menuconfig) add 
+Device Drivers ->
+    Networking support ->
+        Wireless LAN (non-hamradio)->
+            Realtek rtlwifi family of devices
+Network support ->
+    Wireless ->
+        
+    * Wireless LAN drivers (non-hamradio) & Wireless Extensions
