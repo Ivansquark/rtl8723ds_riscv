@@ -22,6 +22,7 @@
 #include <drv_types.h>
 //#include <mach/sys_config.h>
 
+MODULE_INFO(intree, "Y");
 #ifdef CONFIG_PLATFORM_ARM_SUNxI
 extern int sw_usb_disable_hcd(__u32 usbc_no);
 extern int sw_usb_enable_hcd(__u32 usbc_no);
