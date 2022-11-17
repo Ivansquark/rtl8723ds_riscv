@@ -6,7 +6,7 @@
 
 .PHONY: all, clean
 
-CPP = /home/debian/embedded/linux/buildroot/output/host/bin/riscv64-linux-g++
+CPP = /home/opa/embedded/linux/buildroot/output/host/bin/riscv64-linux-g++
 CPPFLAGS = -Wall -c -g3 -O0
 
 INC = inc/
