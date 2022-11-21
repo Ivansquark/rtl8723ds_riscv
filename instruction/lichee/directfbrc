@@ -1,0 +1,13 @@
+system=fbdev
+fbdev=/dev/fb0
+primary-layer=1
+no-cursor
+bg-color=00000000
+disable-module=lirc
+disable-module=keyboard
+disable-module=ps2mouse
+mode=1024x600-60
+pixelformat=ARGB
+depth=32
+hardware
+desktop-buffer-mode=backvideo
